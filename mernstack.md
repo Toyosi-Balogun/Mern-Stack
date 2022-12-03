@@ -33,6 +33,7 @@ Verify the node installation with the command below
 
 ```
 Output
+
 v18.12.1
 ```
 Verify the node installation with the command below
@@ -41,6 +42,7 @@ Verify the node installation with the command below
 
 ```
 Output
+
 8.19.2
 ```
 
@@ -441,6 +443,9 @@ In Todo folder open the package.json file. Change the highlighted part of the be
 "dev": "concurrently \"npm run start-watch\" \"cd client && npm start\""
 },
 ```
+![](assets/5.png)
+
+It should look like this after editing it:
 
 ![](assets/18.png)
 
@@ -448,7 +453,7 @@ Also, configure Proxy in package.json. Change directory to ***client***. Open th
 
 `"proxy": "http://localhost:5000"`
 
-The whole purpose of adding the proxy configuration is to make it possible to access the application directly from the browser by simply calling the server url like http://localhost:5000 rather than always including the entire path like http://localhost:5000/api/todos
+The whole purpose of adding the proxy configuration is to make it possible to access the application directly from the browser by simply calling the server url like <http://localhost:5000> rather than always including the entire path like <http://localhost:5000/api/todos>
 
 Now, ensure you are inside the Todo directory, and simply do:
 
@@ -475,13 +480,13 @@ move to the src directory
 
 `$cd src`
 
-Inside your src folder create another folder called components
+Inside your **src folder** create another folder called components
 
 `$mkdir components`
 
 `$cd components`
 
-Inside ‘components’ directory create three files Input.js, ListTodo.js and Todo.js.
+Inside **‘components’** directory create three files Input.js, ListTodo.js and Todo.js.
 
 `$touch Input.js ListTodo.js Todo.js`
 
@@ -546,7 +551,7 @@ To make use of **Axios**, which is a Promise based HTTP client for the browser a
 `$npm install axios`
 
 Almost done!
-:boom: :star2: :sparkles:
+:boom::star2::sparkles:
 
 Go to *‘components’* directory
 
@@ -675,8 +680,6 @@ In the src directory open the App.css
 
 Then paste the following code into App.css:
 ```
-
-
 .App {
 text-align: center;
 font-size: calc(10px + 2vmin);
@@ -765,30 +768,6 @@ margin-top: 0;
 }
 }
 ```
-Exit
-
-In the src directory open the index.css
-`$vim index.css`
-
-Copy and paste the code below:
-```body {
-margin: 0;
-padding: 0;
-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-"Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-sans-serif;
--webkit-font-smoothing: antialiased;
--moz-osx-font-smoothing: grayscale;
-box-sizing: border-box;
-background-color: #282c34;
-color: #787a80;
-}
- 
-code {
-font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-monospace;
-}
-```
 Go to the Todo directory
 
 `$cd ../..`
@@ -811,5 +790,4 @@ You should see something like this!
 
  ***You wrote a frontend application using React.js that communicates with a backend application written using Expressjs. You also created a MongoDB backend for storing tasks in a database.***
 
-**CONGRATULATIONS** :tada: :confetti_ball: 
-:balloon: :fireworks: :sparkler:
+**CONGRATULATIONS** :tada::confetti_ball::balloon::fireworks::sparkler:
