@@ -1,4 +1,4 @@
-# MERN Stack on Ubuntu 20.04. 
+# MERN Stack on Ubuntu 20.04
 
 The MERN stack is an acronym for MongoDB, Express, React / Redux, and Node.js. The MERN stack is one of the most popular JavaScript stacks for building modern single-page web applications (SPA).
 
